@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+}
+.my-form{
+    background-color: #069999; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my-border{
+    background-color: #aee6e6;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.block-label{
+    margin-top: 5px;
+    margin-bottom: 12px;
+    display: block;
+}
+#fname,#mname,#lname,
+#email,#dob,#phone{
+    width: 100%;
+    padding: 3px;
+}
+#Courses{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+#address{
+    width: 100%;
+}
+#submit-btn{
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
+.reset{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px;
+}
